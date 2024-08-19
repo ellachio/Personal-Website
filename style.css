@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(home.jpg);
     background-size: 130%;
     background-position: center;
 }
@@ -95,7 +95,7 @@ nav ul li a:hover::after{
 /* -------- about -------- */
 #about{
     padding: 80px 0;
-    color: gray;
+    color: #d1d1d1;
 }
 
 .row{
@@ -117,10 +117,18 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 p{
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #e6e6e6;
+}
+
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: white;
+    color: #F4D03F;
+    font-family: 'Merriweather', serif;
 }
 
 .tab-titles{
@@ -130,10 +138,14 @@ nav ul li a:hover::after{
 
 .tab-links{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
+}
+
+.tab-links:hover {
+    color: #F39C12;
 }
 
 .tab-links::after{
@@ -153,12 +165,12 @@ nav ul li a:hover::after{
 
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .tab-contents ul li span{
     color: #F4D03F;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -203,13 +215,6 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-.services-list div a{
-    text-decoration: none;
-    color: gray;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
 
 .services-list div:hover{
     background: #F4D03F;
