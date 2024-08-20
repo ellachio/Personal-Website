@@ -20,6 +20,7 @@ body{
     background-size: 130%;
     background-position: center;
 }
+
 .container{
     padding: 1% 5%;
 }
@@ -243,11 +244,11 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
+.work img {
+    width: 100%; 
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .layer{
@@ -401,7 +402,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/trio.jpeg);
+        background-image: url(aboutme.jpg);
     }
     .header-text{
         margin-top: 100%;
